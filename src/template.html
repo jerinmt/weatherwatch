@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Watch</title>
+</head>
+<body>
+    <header>
+        <h1>Weather Watch</h1>
+    </header>
+    <main>
+        <div>
+            <input type="text" class="searchBar" placeholder="Enter the name of a place">
+            <button type="button" class="searchButton">Search</button>
+        </div>
+        <h2>Wait...</h2>
+        <div class="resultCard">
+            <h3></h3>
+            <hr>
+            <p class="current"></p>
+            <p>Temperature: <span id="temperature"></span>&#176<span id="unit">C</span></p>
+            <button class="selectedUnit" id="celsius">Celsius</button>
+            <button id="fahrenheit">Fahrenheit</button>
+            <p>Humidity: <span id="humidity"></span>%</p>
+            <p><span id="chance"></span>% chance of precipitation</p>
+            <br><hr>
+            <p class="prediction"></p>
+        </div>
+    </main>
+    <footer>There is no copyright.</footer>
+</body>
+</html>

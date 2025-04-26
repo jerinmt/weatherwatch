@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+img, picture, video, canvas, svg {
+    max-inline-size: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+header {
+    background-color: rgb(100, 100, 177);
+    text-align: center;
+    padding: 15px;
+}
+h1 {
+    color: white;
+    font-size: 3rem;
+}
+footer {
+    background-color: rgb(100, 100, 177);;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+main{
+    height: 100%;
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    justify-content: space-between;
+}
+.searchBar {
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.searchButton {
+    background-color: rgb(2, 146, 146);
+    border: 1px dotted rgb(2, 146, 146);
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+.searchButton:hover {
+    opacity: 0.8;
+}
+.searchBar:active {
+    color: white;
+}
+.resultCard {
+    visibility: hidden;
+    background-color: rgb(59, 59, 59);
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    box-shadow: 2px 3px 5px rgb(136, 136, 136);
+    height: 350px;
+}
+h3 {
+    margin-bottom: 10px;
+}
+p {
+    margin: 20px 0px 0px 0px;
+}
+.resultCard button {
+    border-radius: 10px;
+    padding: 2px;
+}
+.selectedUnit {
+    opacity: 0.5;
+}
+h2 {
+    color:white;
+    visibility: hidden;
+}
